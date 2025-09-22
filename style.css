@@ -443,4 +443,48 @@ header {
     justify-content: center;
     gap: 20px;
   }
+
+  .about{
+    height: initial;
+    padding: 5vh 0;
+  }
+
+  .about h1{
+    font-size: 3rem;
+  }
+  .about .card-about .card-img-about{
+    position: initial;
+  }
+
+  .about .card-about{
+    position: initial;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+  }
+  .card-img-about:nth-child(2), .card-img-about:nth-child(3){
+    transform: translate(0);
+    rotate: 0deg;
+  }
+
+  .paragraph{
+    height: initial;
+    padding: 5vh 0;
+  }
+
+  .paragraph p{
+    width: 90%;
+  }
+
+  .scrollAnim{
+    display: none;
+  }
+
+  .companies{
+    height: initial;
+    padding: 5vh 0;
+  }
+  .client{
+    width: 100%;
+  }
 }
